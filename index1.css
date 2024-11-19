@@ -1,11 +1,9 @@
-/* Reset default styling */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body Styling */
 body {
     font-family: 'Arial', sans-serif;
     background: url('7.jpg') no-repeat center center/cover;
@@ -15,41 +13,35 @@ body {
     min-height: 100vh;
 }
 
-/* Navbar Styling */
 .navbar {
-    background: linear-gradient(90deg, red, blue); /* Creates a gradient from red to blue */
+    background: linear-gradient(90deg, red, blue);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
     position: sticky;
     top: 0;
     z-index: 1000;
-    height: auto; /* Adjust the height if needed */
+    height: auto;
 }
 
-
-
-/* Main Content Layout */
 .container {
-    flex: 1; /* Ensures container expands to fill available space */
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    margin-top: 20px; /* Avoid overlapping with navbar */
+    margin-top: 20px;
 }
 
-/* Main Container Styling */
 .container-inner {
     width: 100%;
     max-width: 900px;
-    background: rgba(0, 0, 0, 0.8); /* Transparent overlay for readability */
+    background: rgba(0, 0, 0, 0.8);
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
     padding: 20px;
     text-align: center;
 }
 
-/* Header Styling */
 .header h1 {
     font-size: 2.5em;
     color: #00d4ff;
@@ -61,7 +53,6 @@ body {
     color: #bbbbbb;
 }
 
-/* Create Blog Box Styling */
 .create-box {
     margin-top: 20px;
     padding: 20px;
@@ -100,7 +91,6 @@ body {
     border-color: #00d4ff;
 }
 
-/* Submit Button Styling */
 .submit-btn {
     padding: 10px 20px;
     font-size: 1.1em;
@@ -116,7 +106,6 @@ body {
     background: #0086a8;
 }
 
-/* Footer Styling */
 .footer {
     background-color: #000;
     color: #fff;
